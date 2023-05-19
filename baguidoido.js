@@ -1,4 +1,4 @@
-// Função para formatar o tempo restante
+// negocio q faz o tempo funcionar (check)
 function formatTimeRemaining(time) {
   const days = Math.floor(time / (1000 * 60 * 60 * 24));
   const hours = Math.floor((time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -8,7 +8,7 @@ function formatTimeRemaining(time) {
   return `${days} dias, ${hours} horas, ${minutes} minutos, ${seconds} segundos`;
 }
 
-// Função para atualizar a contagem regressiva
+// Função para atualizar a contagem regressiva (chekeke)
 function updateCountdown() {
   const countdownElements = document.querySelectorAll('.countdown');
 
@@ -25,5 +25,5 @@ function updateCountdown() {
   });
 }
 
-// Atualiza a contagem regressiva a cada segundo
+// Atualiza a contagem regressiva a cada sec
 setInterval(updateCountdown, 1000);
