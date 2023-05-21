@@ -1,4 +1,4 @@
-/* Definições gerais */
+/* vp */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -17,7 +17,7 @@ body {
 
 /* Estilos para o cabeçalho */
 header {
-  background-color: #36393f; /* Cor escura para o cabeçalho */
+  background-color: #36393f; /* cor d fundo */
   padding: 10px;
   text-align: center;
 }
@@ -42,7 +42,7 @@ nav ul li a {
   text-decoration: none;
 }
 
-/* Estilos para o conteúdo do herói */
+/* Estii */
 .hero {
   text-align: center;
   padding: 30px 0;
