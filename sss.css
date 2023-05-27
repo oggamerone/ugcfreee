@@ -7,20 +7,14 @@
 
 /* Estilos para o corpo do documento */
 body {
-  font-family: Arial, sans-serif;
+  font-family:   monospace;
   line-height: 1.6;
-  background-image: url('https://u-static.fotor.com/images/text-to-image/result/PRO-02ed381bd09447ea89f7529bd312e657.jpg');
+  background-image: url('https://media.discordapp.net/attachments/1107772420389085225/1111819927448465458/Sem_ti434tulo.jpg?width=768&height=432');
   background-size: cover;
   color: #ffffff;
   padding-bottom: 60px; /* Considerando a altura do rodapé */
 }
 
-/* Estilos para o cabeçalho */
-header {
-  background-color: #36393f; /* cor d fundo */
-  padding: 10px;
-  text-align: center;
-}
 
 .logo {
   font-size: 24px;
@@ -63,10 +57,10 @@ nav ul li a {
 .btn {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #7289da; /* Cor azul para o botão */
+  background-color: #e10038; /* Cor azul para o botão */
   color: #ffffff;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 /* Estilos para o catálogo */
@@ -78,15 +72,16 @@ nav ul li a {
 
 .catalog .item {
   flex: 0 0 calc(25% - 20px);
+  padding: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 10px 10px 20px;
-  border: 1px solid #fff;
-  border-radius: 5px;
+  margin: 20px 10px 20px;
+  border: 3px solid #3c0000c5;
+  border-radius: 30px;
   overflow: hidden;
   transition: transform 0.3s ease;
-  background-color: #36393f; /* Cor escura para os itens */
+  background-color: #e10038af; /* Cor escura para os itens */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -125,7 +120,7 @@ footer {
   bottom: 0;
   width: 100%;
   height: 60px;
-  background-color: rgba(0, 0, 0, 0.8); /* Cor escura para o rodapé com transparência */
+  background-color: #e1003875; /* Cor escura para o rodapé com transparência */
   color: #ffffff;
   padding: 20px;
   text-align: center;
@@ -143,7 +138,7 @@ footer {
 .released {
   margin-top: 50px;
   padding-top: 20px;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #ffffff;
 }
 
 .released h1 {
@@ -167,15 +162,15 @@ footer {
   align-items: center;
   text-align: center;
   padding: 20px;
-  background-color: #36393f;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  background-color: #830000;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3)3);
 }
 
 .released .item img {
   width: 100px;
   height: 100px;
-  border-radius: 50%;
+  border-radius: 100%;
   object-fit: cover;
   margin-bottom: 10px;
 }
@@ -188,14 +183,14 @@ footer {
 
 .released .item p {
   font-size: 14px;
-  color: #ccc;
+  color: #ffffff;
   margin-bottom: 5px;
 }
 
 .released .item button {
   margin-top: 10px;
   padding: 5px 10px;
-  background-color: #7289da;
+  background-color: #7c0909;
   color: #ffffff;
   border: none;
   border-radius: 5px;
@@ -207,32 +202,33 @@ footer {
 .catalog a {
   display: block;
   padding: 10px;
-  background-color: #7289da; /* Cor de fundo para os links */
+  background-color: #59001694; /* Cor de fundo para os links */
   color: #ffffff; /* Cor do texto para os links */
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 15px;
   margin-top: 10px;
   text-align: center;
   transition: background-color 0.3s ease;
 }
 
 .catalog a:hover {
-  background-color: #6272a4; /* Cor de fundo dos links ao passar o mouse */
+  background-color: #560000; /* Cor de fundo dos links ao passar o mouse */
 }
 
 .item .countdown.highlight {
-  color: red;
+  color: rgb(255, 13, 0);
   font-weight: bold;
   position: relative;
   z-index: 9999;
 }
 
 .additional-info {
-  background-color: #4c4c4c; /* Cor cinza escuro */
+  background-color: #59001694; /* Cor cinza escuro */
   color: #ffffff; /* Cor de texto branco */
   padding: 10px;
   margin-top: 10px;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 15px;
   font-size: 14px;
 }
+
